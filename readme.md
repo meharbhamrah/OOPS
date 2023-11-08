@@ -40,5 +40,18 @@
 ## Abstraction (Hiding details from users)
 
 ## Encapsulation
-## Inheritance
+## Inheritance (Parent class functions can be used in child class)
+- Method Overloading (Same Class, Same Name but Different Parameters)
+
+      class Calculator:
+        def add(self, a , b):
+           return a+b
+
+        def add(self, a, b, c):
+           return a+b+c
+  
+      calc = Calculator()
+      result = cal.add(5, 6)
+      print(result)
+      - will raise error because only latest defined method will be used
 ## Polymorphism
