@@ -7,10 +7,10 @@
             self.age = age
 - Attributes are always public and can be accessed using the dot (.) operator. Eg.: Myclass.Myattribute
 
-## Instance (Object built from class)
-- Static Instance
+## Object (Object built from class)
+- Reference = dynamics_memorykeyword constructor()
+- **Types of binding**
+  - Static Binding
+  - Dynamic Binding
 
-      Dog()
-- Dynamic Instanace
 
-      pet = Dog()
