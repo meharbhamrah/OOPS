@@ -1,10 +1,11 @@
 ## Class (Blueprint for creating Objects)
 - Self Keyword - “self” refers to the instance of the class that is currently being used
+- - Init Method (by default method in python)
 
-      class Dog:
-        def __init__(self, name, age):
-            self.name = name
-            self.age = age
+        class Dog:
+          def __init__(self, name, age):
+              self.name = name
+              self.age = age
 - Attributes are always public and can be accessed using the dot (.) operator. Eg.: Myclass.Myattribute
 
 ## Object (Object built from class)
@@ -13,28 +14,28 @@
   - Static Binding
   
         class Shape:
-          def draw(self):
-            pass
+           def draw(self):
+             pass
     
         class Circle(Shape):
-          def draw(self):
-            print("Drawing a circle")
+           def draw(self):
+             print("Drawing a circle")
     
         class Square(Shape):
-          def Square(Shape):
-            print("Drawing a square")
+           def Square(Shape):
+             print("Drawing a square")
     
         - Static binding based on variable type
-          shape = Shape()
-          circle = Circle()
-          square = Square()
+           shape = Shape()
+           circle = Circle()
+           square = Square()
 
         shapes = [shape, circle, square]
     
   - Dynamic Binding
 
         - Dynamic Binding
-          shapes = [Shape(), Circle(), Square()]
+        shapes = [Shape(), Circle(), Square()]
 
 ## Abstraction (Hiding details from users)
 ## Encapsulation
