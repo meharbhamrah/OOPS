@@ -38,6 +38,7 @@
         shapes = [Shape(), Circle(), Square()]
 
 ## Abstraction (Hiding details from users)
+
 ## Encapsulation
 ## Inheritance
 ## Polymorphism
